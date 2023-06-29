@@ -18,3 +18,7 @@
 
 # logfs
 /vendor/bin/logfs.sh               u:object_r:logsvc_exec:s0
+
+/dev/hvc0               u:object_r:serial_device:s0
+
+/system/bin/logcat2hvc               u:object_r:logcat2hvc_exec:s0
